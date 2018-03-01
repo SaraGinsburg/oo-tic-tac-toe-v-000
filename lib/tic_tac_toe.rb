@@ -99,6 +99,7 @@ class TicTacToe
   def play
     puts "Please enter 1-9:"
     pos = gets.strip
+    over? ? (won? ? "Congratulations #{winner}!" : "Cat's Game!" ) : play
   end
 
 end
