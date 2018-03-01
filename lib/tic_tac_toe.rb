@@ -96,5 +96,9 @@ class TicTacToe
     board_o_arr
   end
 
+  def play
+    puts "Please enter 1-9:"
+    pos = gets.strip
+  end
 
 end
